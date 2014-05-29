@@ -1,10 +1,11 @@
 '''
+
 In the twenty grid below, four numbers along a diagonal line have been marked in red.
 
 '''
 import os
 
-fin = open(os.path.expanduser("~/Desktop/euler/problem11.data"), "r")
+fin = open(os.path.expanduser("~/Documents/euler/problem11.data"), "r")
 rows = [line.strip() for line in fin.readlines()]
 data = []
 dummyrow =  [0]*26
